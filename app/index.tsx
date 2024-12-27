@@ -29,6 +29,6 @@ const styles = StyleSheet.create({
     justifyContent:'flex-end',
     paddingBottom: 50,
     paddingHorizontal: 30,
-    gap:
+    gap: 10,
   },
 });
