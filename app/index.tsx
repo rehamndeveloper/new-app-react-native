@@ -9,7 +9,7 @@ const Page = () => {
 
   return (
     <View style={styles.container}>
-      <StatusBar />
+      <StatusBar s />
       <ImageBackground source={require('@/assets/images/getting-started.jpg')} style={{ flex: 1 }} resizeMode="cover" />
       <View style={styles.wrapper}>
         <Animated.Text style={styles.title} entering={FadeInRight.delay(300).duration(500)}>stay Updated!</Animated.Text>
