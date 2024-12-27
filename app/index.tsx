@@ -13,7 +13,7 @@ const Page = () => {
         <Text style={styles.title}>stay Updated!</Text>
         <Text style={styles.description}>Get breaking news and presonalized updates drectly to your feed.</Text>
         <TouchableOpacity style={styles.btn} onPress={() => router.replace("/(tabs)")}>
-          <Text>Go to Home Screen</Text>
+          <Text style={styles.btnText}>Go to Home Screen</Text>
         </TouchableOpacity>
       </View>
     </View>
