@@ -34,18 +34,21 @@ const styles = StyleSheet.create({
     gap: 10,
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
   },
-  title:{
-     color: Colors.white,
-     fontSize:24,
-     fontWeight: '600',
-     letterSpacing: 1.5,
-     lineHeight: 36,
-     textAlign: 'center',
+  title: {
+    color: Colors.white,
+    fontSize: 24,
+    fontWeight: '600',
+    letterSpacing: 1.5,
+    lineHeight: 36,
+    textAlign: 'center',
   },
-  description:{
-     color: Colors.white, 
+  description: {
+    color: Colors.white,
     fontSize: 16,
     fontWeight: '500',
-    
+    letterSpacing: 1.2,
+    lineHeight: 22,
+    textAlign: 'center',
+
   }
 });
