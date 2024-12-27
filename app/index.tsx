@@ -13,7 +13,7 @@ const Page = () => {
       <View style={styles.wrapper}>
         <Animated.Text style={styles.title} entering={FadeInRight.delay(300).duration(500)}>stay Updated!</Animated.Text>
         <Animated.Text style={styles.description} entering={FadeInRight.delay(700).duration(500)}>Get breaking news and presonalized updates drectly to your feed.</Animated.Text>
-        <Animated.View entering={FadeInDown}>
+        <Animated.View entering={FadeInDown.delay}>
         <TouchableOpacity style={styles.btn} onPress={() => router.replace("/(tabs)")}>
           <Text style={styles.btnText}>Get Started</Text>
         </TouchableOpacity>
