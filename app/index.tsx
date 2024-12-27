@@ -39,6 +39,6 @@ const styles = StyleSheet.create({
      fontWeight: '600',
      letterSpacing: 1.5,
      lineHeight: 36,
-     textAlign
+     textAlign: 'center',
   },
 });
