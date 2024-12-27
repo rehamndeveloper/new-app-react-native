@@ -12,7 +12,7 @@ const Page = () => {
       <View style={styles.wrapper}>
         <Text style={styles.title}>stay Updated!</Text>
         <Text style={styles.description}>Get breaking news and presonalized updates drectly to your feed.</Text>
-        <TouchableOpacity onPress={() => router.replace("/(tabs)")}>
+        <TouchableOpacity  onPress={() => router.replace("/(tabs)")}>
           <Text>Go to Home Screen</Text>
         </TouchableOpacity>
       </View>
@@ -49,6 +49,5 @@ const styles = StyleSheet.create({
     letterSpacing: 1.2,
     lineHeight: 22,
     textAlign: 'center',
-
   }
 });
