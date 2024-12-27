@@ -35,6 +35,10 @@ const styles = StyleSheet.create({
   },
   title:{
      color: Colors.white,
-     
+     fontSize:24,
+     fontWeight: '600',
+     letterSpacing: 1.5,
+     lineHeight: 36,
+     textAlign
   },
 });
