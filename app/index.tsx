@@ -51,6 +51,10 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   btn:{
-    
+    backgroundColor: Colors.tint,
+    paddingVertical: 15,
+    marginVertical: 20,
+    alignItems: 'center',
+    borderRadius: 10,
   }
 });
