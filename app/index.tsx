@@ -25,6 +25,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   wrapper:{
-    flex
+    flex:1,
   }
 });
