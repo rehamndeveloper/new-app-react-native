@@ -8,10 +8,12 @@ const Page = () => {
   return (
     <View style={styles.container}>
       <ImageBackground source={require('@/assets/images/getting-started.jpg')} style={{flex: 1}} resizeMode="cover" />
+      <View >
       <Text>Welcome Page</Text>
       <TouchableOpacity onPress={() => router.replace("/(tabs)")}>
         <Text>Go to Home Screen</Text>
       </TouchableOpacity>
+      </View>
     </View>
   );
 };
