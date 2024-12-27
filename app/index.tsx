@@ -7,12 +7,12 @@ const Page = () => {
 
   return (
     <View style={styles.container}>
-      <ImageBackground source={require('@/assets/images/getting-started.jpg')} style={{flex: 1}} resizeMode="cover" />
+      <ImageBackground source={require('@/assets/images/getting-started.jpg')} style={{ flex: 1 }} resizeMode="cover" />
       <View style={styles.wrapper}>
-      <Text style={{color: 'white'}}>Welcome Page</Text>
-      <TouchableOpacity onPress={() => router.replace("/(tabs)")}>
-        <Text>Go to Home Screen</Text>
-      </TouchableOpacity>
+        <Text style={{ color: 'white' }}>Welcome Page</Text>
+        <TouchableOpacity onPress={() => router.replace("/(tabs)")}>
+          <Text>Go to Home Screen</Text>
+        </TouchableOpacity>
       </View>
     </View>
   );
@@ -24,12 +24,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-  wrapper:{
-    flex:1,
-    justifyContent:'flex-end',
+  wrapper: {
+    flex: 1,
+    justifyContent: 'flex-end',
     paddingBottom: 50,
     paddingHorizontal: 30,
     gap: 10,
-    backgroundColor:'rgba(0, 0, 0, 0.5)',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
   },
 });
