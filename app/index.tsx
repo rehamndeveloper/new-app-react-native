@@ -2,6 +2,7 @@ import { ImageBackground, StyleSheet, Text, TouchableOpacity, View } from "react
 import React from "react";
 import { useRouter } from "expo-router";
 import { Colors } from "react-native/Libraries/NewAppScreen";
+import Animated from "react-native-reanimated";
 
 const Page = () => {
   const router = useRouter();
@@ -10,7 +11,7 @@ const Page = () => {
     <View style={styles.container}>
       <ImageBackground source={require('@/assets/images/getting-started.jpg')} style={{ flex: 1 }} resizeMode="cover" />
       <View style={styles.wrapper}>
-        <Text style={styles.title}>stay Updated!</Text>
+        <Animated.Text style={styles.title}>stay Updated!</Animated.Text>
         <Text style={styles.description}>Get breaking news and presonalized updates drectly to your feed.</Text>
         <TouchableOpacity style={styles.btn} onPress={() => router.replace("/(tabs)")}>
           <Text style={styles.btnText}>Get Started</Text>
