@@ -28,5 +28,6 @@ const styles = StyleSheet.create({
     flex:1,
     justifyContent:'flex-end',
     paddingBottom: 50,
+    paddingHorizontal: 30,
   },
 });
