@@ -4,6 +4,7 @@ import { useRouter } from "expo-router";
 import { Colors } from "react-native/Libraries/NewAppScreen";
 import Animated, { FadeInDown, FadeInRight } from "react-native-reanimated";
 
+
 const Page = () => {
   const router = useRouter();
 
