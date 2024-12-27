@@ -13,9 +13,11 @@ const Page = () => {
       <View style={styles.wrapper}>
         <Animated.Text style={styles.title}>stay Updated!</Animated.Text>
         <Animated.Text style={styles.description}>Get breaking news and presonalized updates drectly to your feed.</Animated.Text>
+        <Animated.View>
         <TouchableOpacity style={styles.btn} onPress={() => router.replace("/(tabs)")}>
           <Text style={styles.btnText}>Get Started</Text>
         </TouchableOpacity>
+        </Animated.View>
       </View>
     </View>
   );
