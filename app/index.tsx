@@ -56,5 +56,8 @@ const styles = StyleSheet.create({
     marginVertical: 20,
     alignItems: 'center',
     borderRadius: 10,
+  },
+  btnText:{
+    
   }
 });
