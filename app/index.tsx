@@ -1,4 +1,4 @@
-import { ImageBackground, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { ImageBackground, StatusBar, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import React from "react";
 import { useRouter } from "expo-router";
 import { Colors } from "react-native/Libraries/NewAppScreen";
@@ -9,7 +9,7 @@ const Page = () => {
 
   return (
     <View style={styles.container}>
-      <S
+      <StatusBar />
       <ImageBackground source={require('@/assets/images/getting-started.jpg')} style={{ flex: 1 }} resizeMode="cover" />
       <View style={styles.wrapper}>
         <Animated.Text style={styles.title} entering={FadeInRight.delay(300).duration(500)}>stay Updated!</Animated.Text>
