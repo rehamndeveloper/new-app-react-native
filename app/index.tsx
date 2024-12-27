@@ -9,7 +9,7 @@ const Page = () => {
     <View style={styles.container}>
       <ImageBackground source={require('@/assets/images/getting-started.jpg')} style={{flex: 1}} resizeMode="cover" />
       <View style={styles.wrapper}>
-      <Text>Welcome Page</Text>
+      <Text style>Welcome Page</Text>
       <TouchableOpacity onPress={() => router.replace("/(tabs)")}>
         <Text>Go to Home Screen</Text>
       </TouchableOpacity>
