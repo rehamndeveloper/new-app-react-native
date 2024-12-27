@@ -49,5 +49,8 @@ const styles = StyleSheet.create({
     letterSpacing: 1.2,
     lineHeight: 22,
     textAlign: 'center',
+  },
+  btn:{
+    
   }
 });
