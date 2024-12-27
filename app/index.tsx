@@ -11,7 +11,7 @@ const Page = () => {
       <ImageBackground source={require('@/assets/images/getting-started.jpg')} style={{ flex: 1 }} resizeMode="cover" />
       <View style={styles.wrapper}>
         <Text style={styles.title}>stay Updated!</Text>
-        <Text style={styles.description}>stay Updated!</Text>
+        <Text style={styles.description}>Get breaking news and presonalized updates drectly to </Text>
         <TouchableOpacity onPress={() => router.replace("/(tabs)")}>
           <Text>Go to Home Screen</Text>
         </TouchableOpacity>
@@ -43,6 +43,6 @@ const styles = StyleSheet.create({
      textAlign: 'center',
   },
   description:{
-    
+
   }
 });
