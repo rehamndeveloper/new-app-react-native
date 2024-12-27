@@ -1,6 +1,7 @@
 import { ImageBackground, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import React from "react";
 import { useRouter } from "expo-router";
+import { Colors } from "react-native/Libraries/NewAppScreen";
 
 const Page = () => {
   const router = useRouter();
@@ -33,6 +34,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
   },
   title:{
+     color: Colors.white,
      
   },
 });
