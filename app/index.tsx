@@ -11,7 +11,7 @@ const Page = () => {
     <View style={styles.container}>
       <ImageBackground source={require('@/assets/images/getting-started.jpg')} style={{ flex: 1 }} resizeMode="cover" />
       <View style={styles.wrapper}>
-        <Animated.Text style={styles.title} entering={FadeInRight}>stay Updated!</Animated.Text>
+        <Animated.Text style={styles.title} entering={FadeInRight.delay(300).duration(500)}>stay Updated!</Animated.Text>
         <Animated.Text style={styles.description}>Get breaking news and presonalized updates drectly to your feed.</Animated.Text>
         <Animated.View>
         <TouchableOpacity style={styles.btn} onPress={() => router.replace("/(tabs)")}>
