@@ -32,4 +32,7 @@ const styles = StyleSheet.create({
     gap: 10,
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
   },
+  title:{
+     
+  },
 });
