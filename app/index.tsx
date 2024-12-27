@@ -58,6 +58,8 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   btnText:{
-    
+    color: Colors.white,
+    fontSize: 16,
+    fontWeight: '700',
   }
 });
