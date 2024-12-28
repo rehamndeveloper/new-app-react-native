@@ -4,7 +4,7 @@ import React from 'react'
 type Props = {}
 
 const Page = (props: Props) => {
-  const
+  const {} = useSafeAreaInsets
   return (
     <View style={styles.container}>
       <Text>Home Screen</Text>
