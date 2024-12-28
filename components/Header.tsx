@@ -8,10 +8,16 @@ type Props = {}
 const Header = (props: Props) => {
     return (
         <View style={styles.container} >
-            <Image
-             source={{ uri: 'https://xsgames.co/randomusers/avatar.php?g=male' }} 
-             style={styles.userImg}
-            />
+            <View style={styles.userInfo}>
+                <Image
+                    source={{ uri: 'https://xsgames.co/randomusers/avatar.php?g=male' }}
+                    style={styles.userImg}
+                />
+                <View>
+                    <Text>Welcome</Text>
+                    <Text>M</Text>
+                </View>
+            </View>
             <TouchableOpacity onPress={() => { }}>
                 <Ionicons name='notifications-outline' size={24} color={Colors.black} />
             </TouchableOpacity>
@@ -33,5 +39,9 @@ const styles = StyleSheet.create({
         height: 50,
         borderRadius: 30,
     },
-
+    userInfo:{
+        flexDirection: 'row',
+        alignContent: 'center',
+        gap: 10
+    }
 })
