@@ -4,6 +4,7 @@ import React from 'react'
 type Props = {}
 
 const Page = (props: Props) => {
+  const
   return (
     <View style={styles.container}>
       <Text>Home Screen</Text>
@@ -16,7 +17,5 @@ export default Page
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
   },
 })
