@@ -15,7 +15,7 @@ const Header = (props: Props) => {
                 />
                 <View>
                     <Text>Welcome</Text>
-                    <Text>M</Text>
+                    <Text></Text>
                 </View>
             </View>
             <TouchableOpacity onPress={() => { }}>
@@ -44,5 +44,5 @@ const styles = StyleSheet.create({
         alignContent: 'center',
         gap: 10
     },
-    
+
 })
