@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     userInfo:{
         flexDirection: 'row',
         alignContent: 'center',
-        gap: 10
+        gap: 10,
     },
 
 })
