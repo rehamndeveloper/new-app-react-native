@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import Header from '@/components/Header'
 import BreakingNews from '@/components/BreakingNews'
-import { SearchBar } from '@/components/searchBar'
+import { earchBar } from '@/components/searchBar'
 import axios from 'axios'
 import { NewsDataType } from '@/types'
 
