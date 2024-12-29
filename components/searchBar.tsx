@@ -6,17 +6,17 @@ import { Colors } from 'react-native/Libraries/NewAppScreen'
 
 type Props = {}
 
-const Header = (props: Props) => {
+const searchBar = (props: Props) => {
     return (
         <View style={styles.container} >
-            <View style={styles.}>
+            <View style={styles.searchBar}>
                 <Ionicons name='search-outline' size={20} color={Colors.lightGrey} />
             </View>
         </View>
     )
 }
 
-export default Header;
+export default HeadsearchBarer;
 
 const styles = StyleSheet.create({
     container:{
