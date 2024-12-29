@@ -16,7 +16,7 @@ const searchBar = (props: Props) => {
                  placeholder='search' 
                  placeholderTextColor={Colors.lightGrey} 
                  style={styles.searchText}
-                 autoCapitalize=''
+                 autoCapitalize='none'
                  />
             </View>
         </View>
