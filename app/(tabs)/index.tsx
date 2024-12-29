@@ -11,7 +11,7 @@ const Page = (props: Props) => {
 
   const getBreakingNews = async () => {
     try{
-      
+      const URL = `https://newsdata.io/api/1/news?apikey=pub_63651ae11e0bb49119edebc11ff74da13e8e9&country=in&language=en&image=1`
     }
   }
   return (
