@@ -14,7 +14,7 @@ const Header = (props: Props) => {
                     style={styles.userImg}
                 />
                 <View style={{gap: 3 }}>
-                    <Text style={}>Welcome</Text>
+                    <Text style={styles.welc}>Welcome</Text>
                     <Text>Muhammad Sarfaraz Tahir</Text>
                 </View>
             </View>
