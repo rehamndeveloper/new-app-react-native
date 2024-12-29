@@ -11,7 +11,7 @@ const Page = (props: Props) => {
 
   const getBreakingNews = async () => {
     try{
-      const URL = `https://newsdata.io/api/1/news?apikey=${}&country=in&language=en&image=1`
+      const URL = `https://newsdata.io/api/1/news?apikey=${PROCE}&country=in&language=en&image=1`
     }
   }
   return (
