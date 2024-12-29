@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     welcomeText:{
        fontSize: 12,
        fontWeight: '700',
-       
+       color:Colors.darkGrey,
 
     },
     userName:{
