@@ -10,7 +10,9 @@ const Page = (props: Props) => {
   const {top: safeTop } = useSafeAreaInsets();
 
   const getBreakingNews = async () => {
-    try{}
+    try{
+      
+    }
   }
   return (
     <View style={[styles.container, {paddingTop: safeTop}]}>
