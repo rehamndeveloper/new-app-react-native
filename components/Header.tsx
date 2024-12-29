@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
         gap: 10,
     },
     welcomeText:{
+       fontSize: 12,
        
     },
     userName:{
