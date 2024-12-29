@@ -9,7 +9,7 @@ type Props = {}
 
 const Page = (props: Props) => {
   const {top: safeTop } = useSafeAreaInsets();
-  const 
+  const [BreakingNews, ]
 
   const getBreakingNews = async () => {
     try{
