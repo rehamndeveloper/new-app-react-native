@@ -36,6 +36,8 @@ const styles = StyleSheet.create({
        gap: 10,
     },
     searchText:{
-        
-    }
+       fontSize: 14,
+       flex: 1,
+       color: Colors.lightGrey, 
+    },
 })
