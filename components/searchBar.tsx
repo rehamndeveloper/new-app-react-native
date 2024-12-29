@@ -34,5 +34,8 @@ const styles = StyleSheet.create({
        borderRadius: 10,
        flexDirection: 'row',
        gap: 10,
+    },
+    searchText:{
+        
     }
 })
