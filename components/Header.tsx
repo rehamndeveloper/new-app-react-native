@@ -43,5 +43,5 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignContent: 'center',
         gap: 10
-    }
+    },
 })
