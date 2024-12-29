@@ -44,4 +44,5 @@ const styles = StyleSheet.create({
         alignContent: 'center',
         gap: 10
     },
+    
 })
