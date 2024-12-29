@@ -15,5 +15,7 @@ const Header = (props: Props) => {
 export default Header;
 
 const styles = StyleSheet.create({
-
+    container:{
+        marginHorizontal: 20,
+    }
 })
