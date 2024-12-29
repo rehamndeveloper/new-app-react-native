@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View, } from 'react-native'
 import React from 'react'
+import { Ionicons } from '@expo/vector-icons'
 
 
 type Props = {}
@@ -7,7 +8,9 @@ type Props = {}
 const Header = (props: Props) => {
     return (
         <View style={styles.container} >
-            
+            <View>
+                <Ionicons />
+            </View>
         </View>
     )
 }
