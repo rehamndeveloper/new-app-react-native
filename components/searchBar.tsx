@@ -15,7 +15,7 @@ const searchBar = (props: Props) => {
                 <TextInput
                  placeholder='search' 
                  placeholderTextColor={Colors.lightGrey} />
-                 
+                 style={styles.searchText}
             </View>
         </View>
     )
