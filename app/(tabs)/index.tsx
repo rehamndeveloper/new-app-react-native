@@ -32,7 +32,7 @@ const Page = (props: Props) => {
   return (
     <View style={[styles.container, {paddingTop: safeTop}]}>
      <Header />
-     <searchBar />
+     <SearchBar />
     <BreakingNews />
     </View>
   )

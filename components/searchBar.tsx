@@ -7,7 +7,7 @@ import { TextInput } from 'react-native-gesture-handler'
 
 type Props = {}
 
-const searchBar = (props: Props) => {
+const SearchBar = (props: Props) => {
     return (
         <View style={styles.container} >
             <View style={styles.searchBar}>
@@ -23,7 +23,7 @@ const searchBar = (props: Props) => {
     )
 }
 
-export default searchBar;
+export default SearchBar;
 
 const styles = StyleSheet.create({
     container:{
