@@ -25,7 +25,7 @@ const Header = (props: Props) => {
     )
 }
 
-export default Header
+export default Header;
 
 const styles = StyleSheet.create({
     container: {
