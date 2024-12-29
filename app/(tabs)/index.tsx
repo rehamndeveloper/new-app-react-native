@@ -9,7 +9,9 @@ type Props = {}
 const Page = (props: Props) => {
   const {top: safeTop } = useSafeAreaInsets();
 
-  
+  const getBreakingNews = async () => {
+    
+  }
   return (
     <View style={[styles.container, {paddingTop: safeTop}]}>
      <Header />
