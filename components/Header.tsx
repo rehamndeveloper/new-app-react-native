@@ -15,7 +15,7 @@ const Header = (props: Props) => {
                 />
                 <View>
                     <Text>Welcome</Text>
-                    <Text>muhammad sarfaraz tahir</Text>
+                    <Text>muhammad sarfaraz Tahir</Text>
                 </View>
             </View>
             <TouchableOpacity onPress={() => { }}>
