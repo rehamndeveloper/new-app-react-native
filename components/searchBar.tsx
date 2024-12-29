@@ -9,7 +9,7 @@ type Props = {}
 const Header = (props: Props) => {
     return (
         <View style={styles.container} >
-            <View style={styles.container}>
+            <View style={styles.}>
                 <Ionicons name='search-outline' size={20} color={Colors.lightGrey} />
             </View>
         </View>
