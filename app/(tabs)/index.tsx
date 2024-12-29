@@ -27,6 +27,7 @@ const Page = (props: Props) => {
     <View style={[styles.container, {paddingTop: safeTop}]}>
      <Header />
      <SearchBar />
+     {BreakingNews.map((item, inde ) => {})}
     </View>
   )
 }
