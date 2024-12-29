@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import Header from '@/components/Header'
 import BreakingNews from '@/components/BreakingNews'
-import { earchBar } from '@/components/searchBar'
+import { searchBar } from '@/components/searchBar'
 import axios from 'axios'
 import { NewsDataType } from '@/types'
 
@@ -32,7 +32,7 @@ const Page = (props: Props) => {
   return (
     <View style={[styles.container, {paddingTop: safeTop}]}>
      <Header />
-     <SearchBar />
+     <searchBar />
     <BreakingNews />
     </View>
   )
