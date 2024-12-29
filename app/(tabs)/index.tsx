@@ -18,7 +18,7 @@ const Page = (props: Props) => {
       const response = await axios .get(URL);
 
       if( response && response.data){
-        setBreakingNews(response.data);
+        setBreakingNews(response.data.results);
       }
     }
   }
