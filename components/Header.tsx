@@ -48,7 +48,6 @@ const styles = StyleSheet.create({
        fontSize: 12,
        fontWeight: '700',
        color:Colors.darkGrey,
-
     },
     userName:{
         fontWeight: '700',
