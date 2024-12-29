@@ -12,7 +12,10 @@ const searchBar = (props: Props) => {
         <View style={styles.container} >
             <View style={styles.searchBar}>
                 <Ionicons name='search-outline' size={20} color={Colors.lightGrey} />
-                <TextInput placeholder='search' placeholderTextColor={Colors.lightGrey} />
+                <TextInput
+                 placeholder='search' 
+                 placeholderTextColor={Colors.lightGrey} />
+                 
             </View>
         </View>
     )
