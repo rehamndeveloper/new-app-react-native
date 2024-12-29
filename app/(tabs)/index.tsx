@@ -12,7 +12,7 @@ const Page = (props: Props) => {
   const getBreakingNews = async () => {
     try{
       const URL = `https://newsdata.io/api/1/news?apikey=${process.env.EXPO_PUBLIC_API_KEY}&country=in&language=en&image=1&removeduplicate=1&size=5`
-      
+      const repo
     }
   }
 
