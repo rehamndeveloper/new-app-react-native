@@ -21,7 +21,7 @@ const Page = (props: Props) => {
         setBreakingNews(response.data.results);
       }
     }catch(err : any)  {
-      console.log('Error Message: ' err.messag);
+      console.log('Error Message: ', err.message);
       
     }
   }
