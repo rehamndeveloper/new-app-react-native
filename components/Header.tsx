@@ -46,10 +46,14 @@ const styles = StyleSheet.create({
     },
     welcomeText:{
        fontSize: 12,
+       fontWeight: '700',
        
+
     },
     userName:{
-
+        fontWeight: '700',
+        fontSize: 14,
+        color: Colors.black
     },
 
 })
