@@ -1,15 +1,16 @@
 import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import React, { useState } from 'react'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import Header from '@/components/Header'
 import { SearchBar } from '@/components/searchBar'
 import axios from 'axios'
+import { NewsDataType } from '@/types'
 
 type Props = {}
 
 const Page = (props: Props) => {
   const {top: safeTop } = useSafeAreaInsets();
-  const [BreakingNews, setBreakingNews] =
+  const [BreakingNews, setBreakingNews] = useState<NewsDataType []>()
 
   const getBreakingNews = async () => {
     try{
