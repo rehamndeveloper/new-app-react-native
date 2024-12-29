@@ -14,8 +14,9 @@ const searchBar = (props: Props) => {
                 <Ionicons name='search-outline' size={20} color={Colors.lightGrey} />
                 <TextInput
                  placeholder='search' 
-                 placeholderTextColor={Colors.lightGrey} />
+                 placeholderTextColor={Colors.lightGrey} 
                  style={styles.searchText}
+                 />
             </View>
         </View>
     )
@@ -38,6 +39,6 @@ const styles = StyleSheet.create({
     searchText:{
        fontSize: 14,
        flex: 1,
-       color: Colors.lightGrey, 
+       color: Colors.darkGrey, 
     },
 })
