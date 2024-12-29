@@ -24,5 +24,8 @@ const styles = StyleSheet.create({
     },
     searchBar:{
        backgroundColor: '#E4E4E4',
+       paddingHorizontal: 10,
+       paddingVertical: 12,
+       
     }
 })
