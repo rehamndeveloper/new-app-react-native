@@ -16,10 +16,10 @@ const searchBar = (props: Props) => {
     )
 }
 
-export default HeadsearchBarer;
+export default searchBar;
 
 const styles = StyleSheet.create({
     container:{
         marginHorizontal: 20,
-    }
+    },
 })
