@@ -15,7 +15,7 @@ const Header = (props: Props) => {
                 />
                 <View style={{gap: 3 }}>
                     <Text style={styles.welcomeText}>Welcome</Text>
-                    <Text>Muhammad Sarfaraz Tahir</Text>
+                    <Text style={styles.userName}>Muhammad Sarfaraz Tahir</Text>
                 </View>
             </View>
             <TouchableOpacity onPress={() => { }}>
@@ -45,6 +45,9 @@ const styles = StyleSheet.create({
         gap: 10,
     },
     welcomeText:{
+       
+    },
+    userName:{
 
     },
 
