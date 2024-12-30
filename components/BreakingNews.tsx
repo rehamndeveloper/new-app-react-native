@@ -27,6 +27,8 @@ const styles = StyleSheet.create({
         marginLeft: 20,
     },
     slideWrapper:{
-
+        width: '100%',
+        flex: 1,
+        justifyContent: 'center',
     },
 })
