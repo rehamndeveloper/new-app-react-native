@@ -20,7 +20,7 @@ const BreakingNews = ({newsList}: Props) => {
         onScroll: (e) => {
             scrollX.value = e.contentOffset.x;
         },
-    })
+    });
 
     return (
         <View style={styles.container}>
