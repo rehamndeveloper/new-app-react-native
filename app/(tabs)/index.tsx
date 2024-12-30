@@ -25,7 +25,6 @@ const Page = (props: Props) => {
       if( response && response.data){
         setBreakingNews(response.data.results);
       }
-      
     }catch(err : any)  {
       console.log('Error Message: ', err.message);
     }
