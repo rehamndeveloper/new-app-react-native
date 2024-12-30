@@ -25,6 +25,8 @@ const styles = StyleSheet.create({
         color: Colors.black,
         marginBottom: 10,
         marginLeft: 20,
+    },
+    slideWrapper:{
 
     },
 })
