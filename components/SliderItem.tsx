@@ -15,7 +15,7 @@ const SliderItem = ({ SlideItem, index }: Props) => {
                 source={{ uri: SlideItem.image_url }}
                 style={styles.image}
             />
-            <Text></Text>
+            <Text>{SlideItem.title}</Text>
         </View>
     )
 }
