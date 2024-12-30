@@ -12,8 +12,9 @@ const SliderItem = ({SlideItem , index}: Props) => {
     return (
         <View style={styles.itemWrapper} >
            <Image 
-           s
-           />
+           source={{uri: SlideItem.image_url}}
+           style={styles.image}
+/>
         </View>
     )
 }
@@ -27,5 +28,7 @@ const styles = StyleSheet.create({
        justifyContent: 'center',
        alignContent: 'center',
     },
+    image:{
 
+    },
 })
