@@ -12,6 +12,7 @@ type Props = {}
 const Page = (props: Props) => {
   const {top: safeTop } = useSafeAreaInsets();
   const [BreakingNews, setBreakingNews] = useState<NewsDataType []>([]);
+  
   useEffect(()=>{
     getBreakingNews()
   }, []);
