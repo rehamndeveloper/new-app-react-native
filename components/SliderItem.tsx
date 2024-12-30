@@ -2,7 +2,7 @@ import React from 'react'
 import { StyleSheet, Text, TouchableOpacity, View, Image  } from 'react-native'
 
 type Props = {
-    
+    SlideItem: ''
 }
 
 const Header = (props: Props) => {
