@@ -1,6 +1,6 @@
 import { Colors } from '@/constants/Colors'
 import { NewsDataType } from '@/types'
-import React from 'react'
+import React, { useState } from 'react'
 import { FlatList, StyleSheet, Text, View } from 'react-native'
 import SliderItem from '@/components/SliderItem'
 
@@ -8,16 +8,24 @@ type Props = {
     newsList: Array<NewsDataType>
 }
 
+
 const BreakingNews = ({newsList}: Props) => {
+    const [data, setData] = useState(newsList);
+    
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Breaking New</Text>
             <View style={styles.slideWrapper}>
-                <FlatList data={newsList} 
+                <FlatList 
+                 data={data} 
                  keyExtractor={(_, index) => `list_item${index}`} 
-                renderItem={({ item , index })=>{
+                 renderItem={({ item , index })=>{
                     <SliderItem slideItem={item} index={index} />
-                }}/>
+                }}
+                horizontal
+                showsHorizontalScrollIndicator={false}
+                pagingEnabled
+                />
             </View>
         </View>
     )
@@ -37,8 +45,8 @@ const styles = StyleSheet.create({
         marginLeft: 20,
     },
     slideWrapper:{
-        width: '100%',
-        flex: 1,
+        // width: '100%',
+        // flex: 1,
         justifyContent: 'center',
     },
 })
