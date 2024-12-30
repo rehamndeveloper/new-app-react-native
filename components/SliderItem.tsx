@@ -7,7 +7,7 @@ type Props = {
     index: number
 }
 
-const Header = ({SlideItem}: Props) => {
+const Header = ({SlideItem , index}: Props) => {
     return (
         <View style={styles.container} >
             
