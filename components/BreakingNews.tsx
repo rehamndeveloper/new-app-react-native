@@ -1,8 +1,11 @@
 import { Colors } from '@/constants/Colors'
+import { NewsDataType } from '@/types'
 import React from 'react'
 import { FlatList, StyleSheet, Text, View } from 'react-native'
 
-type Props = {}
+type Props = {
+    newsList: Array<NewsDataType
+}
 
 const BreakingNews = (props: Props) => {
     return (
