@@ -1,11 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React, { useEffect, useState } from 'react'
-import { useSafeAreaInsets } from 'react-native-safe-area-context'
-import Header from '@/components/Header'
-import BreakingNews from '@/components/BreakingNews'
-import { SearchBar } from '@/components/SearchBar'
 import axios from 'axios'
 import { NewsDataType } from '@/types'
+import Header from '@/components/Header'
+import SearchBar from '@/components/SearchBar'
+import React, { useEffect, useState } from 'react'
+import BreakingNews from '@/components/BreakingNews'
+import { StyleSheet, Text, View } from 'react-native'
+import { useSafeAreaInsets } from 'react-native-safe-area-context'
 
 type Props = {}
 
