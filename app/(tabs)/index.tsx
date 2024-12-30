@@ -14,6 +14,7 @@ const Page = (props: Props) => {
   const [BreakingNews, setBreakingNews] = useState<NewsDataType []>([]);
   useEffect(()=>{
     getBreakingNews()
+
     
   }, []);
 
