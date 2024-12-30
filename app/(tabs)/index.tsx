@@ -29,6 +29,7 @@ const Page = (props: Props) => {
       console.log('Error Message: ', err.message);
     }
   }
+  
 
   return (
     <View style={[styles.container, {paddingTop: safeTop}]}>
