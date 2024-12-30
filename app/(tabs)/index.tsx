@@ -39,6 +39,7 @@ const Page = (props: Props) => {
   )
 }
 
+
 export default Page;
 
 const styles = StyleSheet.create({
