@@ -1,6 +1,6 @@
 import { Colors } from '@/constants/Colors'
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { FlatList, StyleSheet, Text, View } from 'react-native'
 
 type Props = {}
 
@@ -8,7 +8,9 @@ const BreakingNews = (props: Props) => {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Breaking New</Text>
-            <View style={styles.slideWrapper}></View>
+            <View style={styles.slideWrapper}>
+                <FlatList data={} />
+            </View>
         </View>
     )
 }
