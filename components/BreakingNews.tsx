@@ -15,7 +15,7 @@ export default BreakingNews;
 
 const styles = StyleSheet.create({
     container:{
-        marginBottom:10,
+        marginBottom: 10,
     },
     title:{
         
