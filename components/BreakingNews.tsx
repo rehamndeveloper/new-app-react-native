@@ -7,7 +7,7 @@ type Props = {}
 const BreakingNews = (props: Props) => {
     return (
         <View style={styles.container}>
-            <Text></Text>
+            <Text style={styles.title}></Text>
         </View>
     )
 }
@@ -24,6 +24,6 @@ const styles = StyleSheet.create({
         color: Colors.black,
         marginBottom: 10,
         marginLeft: 20,
-        
+
     },
 })
