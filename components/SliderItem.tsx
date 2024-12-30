@@ -1,12 +1,13 @@
 import { NewsDataType } from '@/types'
 import React from 'react'
-import { StyleSheet, Text, TouchableOpacity, View, Image  } from 'react-native'
+import { StyleSheet, Text, TouchableOpacity, View, Image, Dimensions  } from 'react-native'
 
 type Props = {
     SlideItem: NewsDataType,
     index: number
 }
 
+const {width} = Dimensions.get('screen')
 const SliderItem = ({SlideItem , index}: Props) => {
     return (
         <View style={styles.itemWrapper} >
@@ -18,11 +19,8 @@ const SliderItem = ({SlideItem , index}: Props) => {
 export default SliderItem;
 
 const styles = StyleSheet.create({
-    container: {
-        paddingHorizontal: 20,
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
+    itemWrapper: {
+       
     },
 
 })
