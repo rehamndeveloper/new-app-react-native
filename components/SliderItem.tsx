@@ -4,7 +4,7 @@ import { StyleSheet, Text, TouchableOpacity, View, Image  } from 'react-native'
 
 type Props = {
     SlideItem: NewsDataType,
-    
+    index: number
 }
 
 const Header = (props: Props) => {
