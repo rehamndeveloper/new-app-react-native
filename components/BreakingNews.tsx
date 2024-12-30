@@ -19,7 +19,7 @@ const BreakingNews = ({newsList}: Props) => {
     const onScrollHandler = useAnimatedScrollHandler({
         onScroll: (e) => {
             scrollX.value = e.contentOffset.x;
-        }
+        },
     })
 
     return (
