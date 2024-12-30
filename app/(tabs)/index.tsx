@@ -28,7 +28,6 @@ const Page = (props: Props) => {
     }catch(err : any)  {
       console.log('Error Message: ', err.message);
     }
-    
   }
 
 
