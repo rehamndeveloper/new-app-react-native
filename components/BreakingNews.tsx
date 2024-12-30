@@ -11,6 +11,7 @@ type Props = {
 
 const BreakingNews = ({newsList}: Props) => {
     const [data, setData] = useState(newsList);
+    const [paginationIndex, setPaginationIndex] = useState(0);
     
     return (
         <View style={styles.container}>
