@@ -21,7 +21,7 @@ const BreakingNews = ({newsList}: Props) => {
             <Text style={styles.title}>Breaking New</Text>
             <View style={styles.slideWrapper}>
                 <FlatList 
-                ref={}
+                ref={ref}
                  data={data} 
                  keyExtractor={(_, index) => `list_item${index}`} 
                  renderItem={({ item , index })=>{
