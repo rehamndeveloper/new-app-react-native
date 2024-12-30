@@ -6,7 +6,7 @@ type Props = {}
 const BreakingNews = (props: Props) => {
     return (
         <View>
-            
+            <Text></Text>
         </View>
     )
 }
