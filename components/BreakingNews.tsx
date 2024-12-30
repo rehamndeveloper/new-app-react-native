@@ -8,7 +8,7 @@ const BreakingNews = (props: Props) => {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Breaking New</Text>
-            <View></View>
+            <View style={styles.slideWrapper}></View>
         </View>
     )
 }
