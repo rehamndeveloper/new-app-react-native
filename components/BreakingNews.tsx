@@ -3,7 +3,7 @@ import { NewsDataType } from '@/types'
 import React, { useState } from 'react'
 import { FlatList, StyleSheet, Text, View } from 'react-native'
 import SliderItem from '@/components/SliderItem'
-import Animated, { useAnimatedRef, useSharedValue } from 'react-native-reanimated'
+import Animated, { useAnimatedRef, useAnimatedScrollHandler, useSharedValue } from 'react-native-reanimated'
 
 type Props = {
     newsList: Array<NewsDataType>
@@ -16,7 +16,11 @@ const BreakingNews = ({newsList}: Props) => {
     const scrollX = useSharedValue(0);
     const ref = useAnimatedRef<Animated.FlatList<any>>();
     
-    const on
+    const onScrollHandler = useAnimatedScrollHandler({
+        onScroll: (e) => {
+            
+        }
+    })
 
     return (
         <View style={styles.container}>
