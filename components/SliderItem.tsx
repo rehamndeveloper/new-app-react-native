@@ -20,7 +20,8 @@ export default SliderItem;
 
 const styles = StyleSheet.create({
     itemWrapper: {
-       
+       position: 'relative',
+       width: 
     },
 
 })
