@@ -9,7 +9,7 @@ type Props = {
 
 const SliderItem = ({SlideItem , index}: Props) => {
     return (
-        <View style={styles.container} >
+        <View style={styles.itemWrapper} >
             <Text>SliderItem</Text>
         </View>
     )
