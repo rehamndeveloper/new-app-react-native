@@ -1,8 +1,9 @@
+import { NewsDataType } from '@/types'
 import React from 'react'
 import { StyleSheet, Text, TouchableOpacity, View, Image  } from 'react-native'
 
 type Props = {
-    SlideItem: ''
+    SlideItem: NewsDataType
 }
 
 const Header = (props: Props) => {
