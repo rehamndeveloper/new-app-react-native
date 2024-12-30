@@ -12,7 +12,7 @@ const BreakingNews = ({newsList}: Props) => {
         <View style={styles.container}>
             <Text style={styles.title}>Breaking New</Text>
             <View style={styles.slideWrapper}>
-                <FlatList data={newsList} />
+                <FlatList data={newsList}  keyExtractor={(_, index) => `list_item${index}`}/>
             </View>
         </View>
     )

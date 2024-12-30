@@ -11,7 +11,7 @@ type Props = {}
 
 const Page = (props: Props) => {
   const {top: safeTop } = useSafeAreaInsets();
-  const [BreakingNews, setBreakingNews] = useState<NewsDataType []>([]);
+  const [breakingNews, setBreakingNews] = useState<NewsDataType []>([]);
   
   useEffect(()=>{
     getBreakingNews()
@@ -34,7 +34,7 @@ const Page = (props: Props) => {
     <View style={[styles.container, {paddingTop: safeTop}]}>
      <Header />
      <SearchBar />
-    <BreakingNews  newsList={BreakingNews}/>
+    <BreakingNews  newsList={breakingNews}/>
     </View>
   )
 }
