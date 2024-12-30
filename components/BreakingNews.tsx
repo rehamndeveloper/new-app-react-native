@@ -7,7 +7,7 @@ type Props = {}
 const BreakingNews = (props: Props) => {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}></Text>
+            <Text style={styles.title}>New</Text>
         </View>
     )
 }
