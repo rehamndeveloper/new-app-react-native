@@ -2,6 +2,7 @@ import { Colors } from '@/constants/Colors'
 import { NewsDataType } from '@/types'
 import React from 'react'
 import { FlatList, StyleSheet, Text, View } from 'react-native'
+import SliderItem from '@/components/SliderItem'
 
 type Props = {
     newsList: Array<NewsDataType>
