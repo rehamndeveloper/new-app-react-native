@@ -7,15 +7,15 @@ type Props = {
     index: number
 }
 
-const Header = ({SlideItem , index}: Props) => {
+const SliderItem = ({SlideItem , index}: Props) => {
     return (
         <View style={styles.container} >
-            
+            <Text>SliderItem</Text>
         </View>
     )
 }
 
-export default Header;
+export default SliderItem;
 
 const styles = StyleSheet.create({
     container: {
