@@ -16,6 +16,8 @@ const BreakingNews = ({newsList}: Props) => {
     const scrollX = useSharedValue(0);
     const ref = useAnimatedRef<Animated.FlatList<any>>();
     
+
+    
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Breaking New</Text>
