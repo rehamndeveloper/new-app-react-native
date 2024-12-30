@@ -21,7 +21,9 @@ export default SliderItem;
 const styles = StyleSheet.create({
     itemWrapper: {
        position: 'relative',
-       width: 
+       width: width,
+       justifyContent: 'center',
+       alignContent: 'center',
     },
 
 })
