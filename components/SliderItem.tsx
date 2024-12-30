@@ -11,7 +11,9 @@ const {width} = Dimensions.get('screen')
 const SliderItem = ({SlideItem , index}: Props) => {
     return (
         <View style={styles.itemWrapper} >
-            <Text>SliderItem</Text>
+           <Image 
+           s
+           />
         </View>
     )
 }
