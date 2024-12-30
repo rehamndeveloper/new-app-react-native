@@ -13,8 +13,8 @@ const BreakingNews = ({newsList}: Props) => {
         <View style={styles.container}>
             <Text style={styles.title}>Breaking New</Text>
             <View style={styles.slideWrapper}>
-                <FlatList data={newsList}  keyExtractor={(_, index) => `list_item${index}`} renderItem={(_,index)=>{
-                    <SliderItem />
+                <FlatList data={newsList}  keyExtractor={(_, index) => `list_item${index}`} renderItem={({item,index})=>{
+                    <SliderItem slideItem={item} index={index} />
                 }}/>
             </View>
         </View>
