@@ -4,10 +4,10 @@ import React from 'react'
 import { FlatList, StyleSheet, Text, View } from 'react-native'
 
 type Props = {
-    newsList: Array<NewsDataType
+    newsList: Array<NewsDataType>
 }
 
-const BreakingNews = (props: Props) => {
+const BreakingNews = ({newsList}: Props) => {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Breaking New</Text>
