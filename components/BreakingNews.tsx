@@ -20,7 +20,7 @@ const BreakingNews = ({newsList}: Props) => {
         <View style={styles.container}>
             <Text style={styles.title}>Breaking New</Text>
             <View style={styles.slideWrapper}>
-                <FlatList 
+                <Animated.FlatList 
                 ref={ref}
                  data={data} 
                  keyExtractor={(_, index) => `list_item${index}`} 
