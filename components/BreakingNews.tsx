@@ -14,4 +14,7 @@ const BreakingNews = (props: Props) => {
 export default BreakingNews;
 
 const styles = StyleSheet.create({
+    container:{
+        marginBottom:10,
+    }
 })
