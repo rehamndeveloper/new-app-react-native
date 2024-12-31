@@ -6,6 +6,7 @@ import React, { useEffect, useState } from "react";
 import BreakingNews from "@/components/BreakingNews";
 import { ActivityIndicator, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
+import Categories from "@/components/Categories";
 
 
 type Props = {};
@@ -33,6 +34,11 @@ const Page = (props: Props) => {
     }
   };
 
+  const onCatChanged = (Category: string)=>{
+    console.log('category', Category);
+    
+  }
+
   return (
     <View style={[styles.container, { paddingTop: safeTop }]}>
       <Header />
@@ -42,6 +48,7 @@ const Page = (props: Props) => {
       ) : (
         <BreakingNews newsList={breakingNews} />
       )}
+      <Categories  onCategoryChanged={onCatChanged}/> 
     </View>
   );
 };
