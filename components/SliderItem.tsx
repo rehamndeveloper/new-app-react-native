@@ -19,14 +19,13 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
                 style={styles.image}
             />
             <LinearGradient colors={["transparent", 'rgba(0, 0, 0, 0.8)']} style={styles.background}>
-               <View>
-                <View>
+                <View style={styles.sourceInfo}>
                     {SlideItem.source_icon && (
                         <Image source={{ uri: SlideItem.source_icon }} style={styles.sourceIcon} />
                     )}
+                    <Text>{SlideItem.source_name}</Text>
+                    <Text>{SlideItem.title}</Text>
                 </View>
-                <Text>{SlideItem.title}</Text>
-               </View>
             </LinearGradient>
         </View>
     )
@@ -46,20 +45,20 @@ const styles = StyleSheet.create({
         height: 180,
         borderRadius: 20,
     },
-    background:{
-       position: 'absolute',
-       left: 30,
-       right: 0,
-       top: 0,
-       width: width - 60,
-       height: 180,
-       borderRadius: 20,
-       padding: 20,
+    background: {
+        position: 'absolute',
+        left: 30,
+        right: 0,
+        top: 0,
+        width: width - 60,
+        height: 180,
+        borderRadius: 20,
+        padding: 20,
     },
-    sourceIcon:{
-       width: 25,
-       height: 25,
-       borderRadius: 20,
+    sourceIcon: {
+        width: 25,
+        height: 25,
+        borderRadius: 20,
     },
 
 })
