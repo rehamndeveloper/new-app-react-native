@@ -18,7 +18,7 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
                 source={{ uri: SlideItem.image_url }}
                 style={styles.image}
             />
-            <LinearGradient colors={["transparent", 'rgba(0, 0, 0, 0.8)']}>
+            <LinearGradient colors={["transparent", 'rgba(0, 0, 0, 0.8)']} style={styles.background}>
                 <Text>{SlideItem.title}</Text>
             </LinearGradient>
         </View>
@@ -38,5 +38,8 @@ const styles = StyleSheet.create({
         width: width,
         height: 180,
         borderRadius: 20,
+    },
+    background:{
+
     },
 })
