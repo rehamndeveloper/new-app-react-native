@@ -1,4 +1,5 @@
 import { NewsDataType } from '@/types'
+import { LinearGradient } from 'expo-linear-gradient'
 import React from 'react'
 import { StyleSheet, Text, TouchableOpacity, View, Image, Dimensions } from 'react-native'
 import { SharedValue } from 'react-native-reanimated'
@@ -17,7 +18,9 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
                 source={{ uri: SlideItem.image_url }}
                 style={styles.image}
             />
+            <LinearGradient>
             <Text>{SlideItem.title}</Text>
+            </LinearGradient>
         </View>
     )
 }
