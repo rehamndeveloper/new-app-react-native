@@ -35,6 +35,7 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
             ],
         };
     } );
+    
     return (
         <View style={styles.itemWrapper} >
             <Image
