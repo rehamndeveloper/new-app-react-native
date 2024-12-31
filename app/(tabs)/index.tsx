@@ -1,11 +1,12 @@
 import axios from "axios";
 import { NewsDataType } from "@/types";
 import Header from "@/components/Header";
-import SearchBar from "@/components/searchBar";
+// import SearchBar from "@/components/searchBar";
 import React, { useEffect, useState } from "react";
 import BreakingNews from "@/components/BreakingNews";
 import { ActivityIndicator, StyleSheet, Text, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
+
 
 type Props = {};
 
@@ -35,7 +36,7 @@ const Page = (props: Props) => {
   return (
     <View style={[styles.container, { paddingTop: safeTop }]}>
       <Header />
-      <SearchBar />
+      {/* <SearchBar /> */}
       {isLoading ? (
         <ActivityIndicator size={"large"} />
       ) : (
