@@ -21,9 +21,16 @@ export default Pagination;
 
 const styles = StyleSheet.create({
     container: {
-        paddingHorizontal: 20,
         flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
+        height: 40,
+        justifyContent: "center",
+        alignItems: "center"
+    },
+    dot:{
+      backgroundColor: "#333",
+      height: 8,
+      width: 8,
+      marginHorizontal: 2,
+      borderRadius: 8,
     },
 })
