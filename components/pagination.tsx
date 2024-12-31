@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, TouchableOpacity, View, Image  } from 'react-native'
 import { NewsDataType } from '@/types'
-import { SharedValue } from 'react-native-reanimated'
+import Animated, { SharedValue } from 'react-native-reanimated'
 
 type Props = {
     items: NewsDataType[],
@@ -12,7 +12,8 @@ type Props = {
 const Pagination = ({items, paginationIndex, scrollX}: Props) => {
     return (
         <View style={styles.container} >
-            <Text>pagination</Text>
+            <Animated.View style={styles.dot} />
+
         </View>
     )
 }
