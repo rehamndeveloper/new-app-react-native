@@ -10,7 +10,7 @@ type Props = {
 }
 
 const { width } = Dimensions.get('screen')
-const SliderItem = ({ SlideItem, index }: Props) => {
+const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
     return (
         <View style={styles.itemWrapper} >
             <Image
