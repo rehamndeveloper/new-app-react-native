@@ -41,9 +41,12 @@ const styles = StyleSheet.create({
     },
     background:{
        position: 'absolute',
-       left: 30,
+    //    left: 30,
        right: 0,
        top: 0,
-       width: width
+       width: width,
+       height: 180,
+       borderRadius: 20,
+
     },
 })
