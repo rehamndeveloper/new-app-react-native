@@ -1,10 +1,12 @@
 import { NewsDataType } from '@/types'
 import React from 'react'
 import { StyleSheet, Text, TouchableOpacity, View, Image, Dimensions } from 'react-native'
+import { SharedValue } from 'react-native-reanimated'
 
 type Props = {
     SlideItem: NewsDataType,
-    index: number
+    index: number,
+    scrollX : SharedValue<number>
 }
 
 const { width } = Dimensions.get('screen')
