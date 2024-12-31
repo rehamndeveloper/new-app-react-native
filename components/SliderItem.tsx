@@ -55,6 +55,11 @@ const styles = StyleSheet.create({
        height: 180,
        borderRadius: 20,
        padding: 20,
-
     },
+    sourceIcon:{
+       width: 25,
+       height: 25,
+       borderRadius: 20,
+    },
+
 })
