@@ -26,7 +26,7 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
                     )}
                     <Text style={styles.sourceName}>{SlideItem.source_name}</Text>
                 </View>
-                    <Text>{SlideItem.title}</Text>
+                    <Text style={styles.title}>{SlideItem.title}</Text>
             </LinearGradient>
         </View>
     )
@@ -73,5 +73,8 @@ const styles = StyleSheet.create({
         width: 25,
         height: 25,
         borderRadius: 20,
+    },
+    title:{
+      
     },
 })
