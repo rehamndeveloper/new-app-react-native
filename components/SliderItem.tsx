@@ -26,7 +26,7 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
                     )}
                     <Text style={styles.sourceName}>{SlideItem.source_name}</Text>
                 </View>
-                <Text style={styles.title}>{SlideItem.title}</Text>
+                <Text style={styles.title} numberOfLines={2}>{SlideItem.title}</Text>
             </LinearGradient>
         </View>
     )
