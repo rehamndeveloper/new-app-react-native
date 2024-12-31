@@ -16,8 +16,8 @@ const Pagination = ({items, paginationIndex, scrollX}: Props) => {
                 return <Animated.View style={styles.dot} key={index} />;
             })}
         </View>
-    )
-}
+    );
+};
 
 export default Pagination;
 
