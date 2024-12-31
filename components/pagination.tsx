@@ -3,7 +3,7 @@ import { StyleSheet, Text, TouchableOpacity, View, Image  } from 'react-native'
 
 type Props = {}
 
-const Header = (props: Props) => {
+const Pagination = (props: Props) => {
     return (
         <View style={styles.container} >
             
@@ -11,7 +11,7 @@ const Header = (props: Props) => {
     )
 }
 
-export default Header;
+export default Pagination;
 
 const styles = StyleSheet.create({
     container: {
