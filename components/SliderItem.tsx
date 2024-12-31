@@ -1,3 +1,4 @@
+import { Colors } from '@/constants/Colors'
 import { NewsDataType } from '@/types'
 import { LinearGradient } from 'expo-linear-gradient'
 import React from 'react'
@@ -23,7 +24,7 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
                     {SlideItem.source_icon && (
                         <Image source={{ uri: SlideItem.source_icon }} style={styles.sourceIcon} />
                     )}
-                    <Text style={styles.}>{SlideItem.source_name}</Text>
+                    <Text style={styles.sourceName}>{SlideItem.source_name}</Text>
                 </View>
                     <Text>{SlideItem.title}</Text>
             </LinearGradient>
@@ -60,11 +61,16 @@ const styles = StyleSheet.create({
         position: 'absolute',
         top: 85,
         paddingHorizontal: 20,
+        alignItems: 'center',
+    },
+    sourceName:{
+        color: Colors.white,
+        fontSize: 12,
+        fontWeight: '600',
     },
     sourceIcon: {
         width: 25,
         height: 25,
         borderRadius: 20,
     },
-
 })
