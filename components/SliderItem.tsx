@@ -22,11 +22,19 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
                         [(index - 1) * width, index * width, (index + 1 ) * width],
                         [-width * 0.15, 0, width * 0.15],
                         Extrapolation.CLAMP
-                    )
-                }
-            ]
-        }
-    } )
+                    ),
+                },
+                {
+                    scale: interpolate(
+                        scrollX.value,
+                        [(index -1) * width, index * width, (index + 1) * width],
+                        [0.9, 1, 0.9 ],
+                        Extrapolation.CLAMP
+                    ),
+                },
+            ],
+        };
+    } );
     return (
         <View style={styles.itemWrapper} >
             <Image
