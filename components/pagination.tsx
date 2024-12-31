@@ -1,7 +1,13 @@
 import React from 'react'
 import { StyleSheet, Text, TouchableOpacity, View, Image  } from 'react-native'
+import { NewsDataType } from '@/types'
+import { SharedValue } from 'react-native-reanimated'
 
-type Props = {}
+type Props = {
+    SlideItem: NewsDataType[],
+    paginationIndex: number,
+    scrollX: SharedValue<number>
+}
 
 const Pagination = (props: Props) => {
     return (
