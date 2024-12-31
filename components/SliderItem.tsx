@@ -23,7 +23,7 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
                     {SlideItem.source_icon && (
                         <Image source={{ uri: SlideItem.source_icon }} style={styles.sourceIcon} />
                     )}
-                    <Text>{SlideItem.source_name}</Text>
+                    <Text style={styles.}>{SlideItem.source_name}</Text>
                 </View>
                     <Text>{SlideItem.title}</Text>
             </LinearGradient>
