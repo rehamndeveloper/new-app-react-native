@@ -20,7 +20,11 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
             />
             <LinearGradient colors={["transparent", 'rgba(0, 0, 0, 0.8)']} style={styles.background}>
                <View>
-                <View></View>
+                <View>
+                    {SlideItem.source_icon && (
+                        <Image source={{ uri: SlideItem.source_icon }} style={styles.sourceIcon} />
+                    )}
+                </View>
                 <Text>{SlideItem.title}</Text>
                </View>
             </LinearGradient>
