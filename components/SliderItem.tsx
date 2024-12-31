@@ -37,7 +37,10 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
     } );
 
     return (
-        <Animated.View style={styles.itemWrapper} >
+        <Animated.View 
+         style={[styles.itemWrapper, rnStyle]}
+         key={SlideItem.article_id}
+         >
             <Image
                 source={{ uri: SlideItem.image_url }}
                 style={styles.image}
