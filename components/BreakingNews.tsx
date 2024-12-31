@@ -31,14 +31,13 @@ const BreakingNews = ({newsList}: Props) => {
                  data={data} 
                  keyExtractor={(_, index) => `list_item${index}`} 
                  renderItem={({ item , index })=>{
-                    <SliderItem slideItem={item} index={index} />
+                    <SliderItem slideItem={item} index={index}  scrollX={scrollX}/>
                 }}
                 horizontal
                 showsHorizontalScrollIndicator={false}
                 pagingEnabled
                 onScroll={onScrollHandler}
                 scrollEventThrottle={16}
-                
                 />
             </View>
         </View>
