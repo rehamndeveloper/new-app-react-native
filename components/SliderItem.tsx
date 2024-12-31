@@ -56,7 +56,10 @@ const styles = StyleSheet.create({
         padding: 20,
     },
     sourceInfo:{
-
+        flexDirection: 'row',
+        position: 'absolute',
+        top: 85,
+        paddingHorizontal: 20,
     },
     sourceIcon: {
         width: 25,
