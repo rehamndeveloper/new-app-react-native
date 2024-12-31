@@ -19,7 +19,10 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
                 style={styles.image}
             />
             <LinearGradient colors={["transparent", 'rgba(0, 0, 0, 0.8)']} style={styles.background}>
+               <View>
+                <View></View>
                 <Text>{SlideItem.title}</Text>
+               </View>
             </LinearGradient>
         </View>
     )
@@ -48,6 +51,6 @@ const styles = StyleSheet.create({
        height: 180,
        borderRadius: 20,
        padding: 20,
-       
+
     },
 })
