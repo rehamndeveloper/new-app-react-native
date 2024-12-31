@@ -41,6 +41,9 @@ const BreakingNews = ({newsList}: Props) => {
                 scrollEventThrottle={16}
                 onEndReachedThreshold={0.5}
                 onEndReached={()=> setData([...data, ...newsList])}
+                viewabilityConfigCallbackPairs={
+                    viewabilityConfigCallbackPairs.current
+                }
                 />
                 <Pagination  items={newsList} scrollX={scrollX} paginationIndex={paginationIndex}/>
             </View>
