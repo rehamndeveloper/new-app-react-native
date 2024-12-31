@@ -37,6 +37,7 @@ const BreakingNews = ({newsList}: Props) => {
                 showsHorizontalScrollIndicator={false}
                 pagingEnabled
                 onScroll={onScrollHandler}
+                s
                 
                 />
             </View>
