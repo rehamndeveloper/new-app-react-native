@@ -62,6 +62,7 @@ const styles = StyleSheet.create({
         top: 85,
         paddingHorizontal: 20,
         alignItems: 'center',
+        gap: 10,
     },
     sourceName:{
         color: Colors.white,
