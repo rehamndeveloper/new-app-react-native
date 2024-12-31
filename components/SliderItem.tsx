@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
         alignContent: 'center',
     },
     image: {
-        width: width,
+        width: width - 60,
         height: 180,
         borderRadius: 20,
     },
