@@ -7,7 +7,7 @@ import { SharedValue } from 'react-native-reanimated'
 type Props = {
     SlideItem: NewsDataType,
     index: number,
-    scrollX : SharedValue<number>
+    scrollX: SharedValue<number>
 }
 
 const { width } = Dimensions.get('screen')
@@ -19,7 +19,7 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
                 style={styles.image}
             />
             <LinearGradient>
-            <Text>{SlideItem.title}</Text>
+                <Text>{SlideItem.title}</Text>
             </LinearGradient>
         </View>
     )
