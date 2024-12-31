@@ -42,7 +42,7 @@ const BreakingNews = ({newsList}: Props) => {
                 onEndReachedThreshold={0.5}
                 onEndReached={()=> setData([...data, ...newsList])}
                 />
-                <Pagination />
+                <Pagination  items={newsList} scrollX={scrollX} paginationIndex={paginationIndex}/>
             </View>
         </View>
     )
