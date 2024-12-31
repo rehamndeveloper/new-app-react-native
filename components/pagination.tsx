@@ -12,7 +12,7 @@ type Props = {
 const Pagination = ({items, paginationIndex, scrollX}: Props) => {
     return (
         <View style={styles.container} >
-            
+            <Text>pagination</Text>
         </View>
     )
 }
