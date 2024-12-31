@@ -24,8 +24,8 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
                         <Image source={{ uri: SlideItem.source_icon }} style={styles.sourceIcon} />
                     )}
                     <Text>{SlideItem.source_name}</Text>
-                    <Text>{SlideItem.title}</Text>
                 </View>
+                    <Text>{SlideItem.title}</Text>
             </LinearGradient>
         </View>
     )
@@ -60,5 +60,8 @@ const styles = StyleSheet.create({
         height: 25,
         borderRadius: 20,
     },
+    sourceInfo:{
+
+    }
 
 })
