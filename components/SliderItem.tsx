@@ -55,13 +55,13 @@ const styles = StyleSheet.create({
         borderRadius: 20,
         padding: 20,
     },
+    sourceInfo:{
+
+    },
     sourceIcon: {
         width: 25,
         height: 25,
         borderRadius: 20,
     },
-    sourceInfo:{
-
-    }
 
 })
