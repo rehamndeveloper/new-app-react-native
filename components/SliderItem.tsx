@@ -18,7 +18,7 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
                 source={{ uri: SlideItem.image_url }}
                 style={styles.image}
             />
-            <LinearGradient>
+            <LinearGradient colors={["transparent", 'rgba(0, 0, 0, 0.8)']}>
                 <Text>{SlideItem.title}</Text>
             </LinearGradient>
         </View>
