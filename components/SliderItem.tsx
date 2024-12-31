@@ -40,6 +40,10 @@ const styles = StyleSheet.create({
         borderRadius: 20,
     },
     background:{
-
+       position: 'absolute',
+       left: 30,
+       right: 0,
+       top: 0,
+       width: width
     },
 })
