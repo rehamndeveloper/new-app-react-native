@@ -3,7 +3,7 @@ import { NewsDataType } from '@/types'
 import { LinearGradient } from 'expo-linear-gradient'
 import React from 'react'
 import { StyleSheet, Text, TouchableOpacity, View, Image, Dimensions } from 'react-native'
-import { Extrapolation, interpolate, SharedValue, useAnimatedStyle } from 'react-native-reanimated'
+import Animated, { Extrapolation, interpolate, SharedValue, useAnimatedStyle } from 'react-native-reanimated'
 
 type Props = {
     SlideItem: NewsDataType,
@@ -35,9 +35,9 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
             ],
         };
     } );
-    
+
     return (
-        <View style={styles.itemWrapper} >
+        <Animated.View style={styles.itemWrapper} >
             <Image
                 source={{ uri: SlideItem.image_url }}
                 style={styles.image}
@@ -51,7 +51,7 @@ const SliderItem = ({ SlideItem, index, scrollX }: Props) => {
                 </View>
                 <Text style={styles.title} numberOfLines={2}>{SlideItem.title}</Text>
             </LinearGradient>
-        </View>
+        </Animated.View>
     )
 }
 
