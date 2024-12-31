@@ -36,7 +36,8 @@ const BreakingNews = ({newsList}: Props) => {
                 horizontal
                 showsHorizontalScrollIndicator={false}
                 pagingEnabled
-                on
+                onScroll={onScrollHandler}
+                
                 />
             </View>
         </View>
@@ -61,4 +62,4 @@ const styles = StyleSheet.create({
         // flex: 1,
         justifyContent: 'center',
     },
-})
+});
