@@ -6,7 +6,7 @@ import SliderItem from '@/components/SliderItem'
 import Animated, { useAnimatedRef, useAnimatedScrollHandler, useSharedValue } from 'react-native-reanimated'
 
 type Props = {
-    newsList: Array<NewsDataType>
+    newsList: Array<NewsDataType>;
 }
 
 
