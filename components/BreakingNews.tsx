@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import { FlatList, StyleSheet, Text, View } from 'react-native'
 import SliderItem from '@/components/SliderItem'
 import Animated, { useAnimatedRef, useAnimatedScrollHandler, useSharedValue } from 'react-native-reanimated'
+import pagination from '@/components/pagination'
 
 type Props = {
     newsList: Array<NewsDataType>;
@@ -41,6 +42,7 @@ const BreakingNews = ({newsList}: Props) => {
                 onEndReachedThreshold={0.5}
                 onEndReached={()=> setData([...data, ...newsList])}
                 />
+                <pagination />
             </View>
         </View>
     )
